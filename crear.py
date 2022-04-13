@@ -17,7 +17,7 @@ def create():
         # si no tiene menos de 5 letras compara si tiene 6 o más letras si es asi prosigue
         # a la siguiente funcion
         elif len(user_name) >= 6:
-            input("Presione enter para continuar...")
+            print("Nombre de usuario valido, continuando...")
             # en este primer punto sobre escribimos el archivo abierto al principio del codigo
             # con el nombre de usuario indicado y creando una variable que lo contenga
             save.write("\nInput_user_name = \"" + user_name + "\"")
@@ -37,7 +37,7 @@ def create():
         com = e_mail.endswith(".com")
         # el if compara si la cantidad de @ es igual a uno si es asi se acepta el e-mail
         if arroba == 1 and com == True:
-            input("presione enter para continuar...")
+            print("Correo electronico valido, procediendo...")
             # cuando el e-mail a sido aceptado lo guarda en el archivo abierto al cominenzo en
             # la variable e_mail, para usarlo en el inicio de sesión
             save.write("\nInput_e_mail = \"" +  e_mail + "\"")
@@ -53,7 +53,7 @@ def create():
         al = password.isalpha()
         count = password.count(" ")
         if len(password) >= 8 and count == 0 and num != True and al != True:
-            input("Presione enter para crear su cuenta")
+            input("Presione enter para crear su cuenta...")
             # aqui pasa lo mismo que al guardar el correo y el nombre de usuario, se guarda
             # cuando la contraseña a sido aceptada
             save.write("\nInput_password = \"" + password + "\"")
@@ -66,6 +66,6 @@ def create():
             passwd()
 
     def grettins():
-        print("Su cuenta a sido creada con exito\nGracias por crear una cuenta en nuestra plataforma")
+        print("Su cuenta a sido creada con exito\nGracias por crear una cuenta en *inserte nombre de app*")
     user()
     
