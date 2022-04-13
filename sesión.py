@@ -24,7 +24,7 @@ def sesión():
         password = input("Ingrese una contraseña para iniciar sesión > ")
         # comparamos la contraseña ingresada con el del archivo user1.py
         if password == dat.Input_password:
-            print("Accediendo...\nInicio de sesion correcto bienvenido " + dat.Input_user_name)
+            print("Accediendo...\nInicio de sesion correcto \nBIENVENIDO DE NUEVO " + dat.Input_user_name)
         # en el mismo caso de que la contraseña sea incorrecta lo notificamos al usuario y
         # lo volvemos a intentar
         else:
