@@ -12,4 +12,4 @@ Con el comando `git clone https://github.com/pa104305/proyect-log`
 
 Puedes ver mi portafolio en: `https://pa104305.github.io/portafolio`
 
-¬2 de abril del 2022
+¬2 de abril del 2022 (Editado el 27 de diciembre de 2024)
